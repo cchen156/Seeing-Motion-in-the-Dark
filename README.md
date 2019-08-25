@@ -33,7 +33,7 @@ python test_image.py
 
 To generate the videos, run 
 ```
-python test_video.py`
+python test_video.py
 ```
 
 By default, the code takes the data in the "./DRV/" and the output folder is ```./result```.
