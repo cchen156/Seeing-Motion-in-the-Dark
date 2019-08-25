@@ -18,11 +18,11 @@ Tested in Ubuntu 16.04 + Nvidia Tesla V100 32 GB with Cuda (>=9.0) and CuDNN (>=
 
 ### Testing and training the models
 
-To reproduce the results, you only need to download the pre-processed data and put them in ```./DRV```. To try the pre-trained models, download the model in ```./checkpoint```.
+To reproduce the results, you only need to download the [pre-processed data]() and put them in ```./DRV```. To try the [pre-trained model](), download the model in ```./checkpoint```.
 
 To retrain a new model, run: 
 ```
-python download_VGG.py
+python download_VGG_models.py
 python train.py
 ```
 
