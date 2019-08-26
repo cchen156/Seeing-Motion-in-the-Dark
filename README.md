@@ -1,4 +1,4 @@
-# Seeing Motion in the Dark (Repo work in progress)
+# Seeing Motion in the Dark 
 
 This is a Tensorflow implementation of Seeing Motion in the Dark in ICCV 2019, by [Chen Chen](http://cchen156.web.engr.illinois.edu/), [Qifeng Chen](http://cqf.io/), [Minh N. Do](http://minhdo.ece.illinois.edu), and [Vladlen Koltun](http://vladlen.info/).  
 
@@ -9,7 +9,7 @@ This is a Tensorflow implementation of Seeing Motion in the Dark in ICCV 2019, b
 ## Demo Video
 
 
-## Code and Data
+## Code and Data (Work in progress)
 
 ### Requirement
 Required python (version 2.7) libraries: Tensorflow (>=1.8.0) + Scipy + Numpy + Rawpy.
