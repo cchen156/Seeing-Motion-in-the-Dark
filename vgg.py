@@ -26,7 +26,7 @@ def build_vgg19(input,reuse=False):
         if reuse:
             scope.reuse_variables()
         net={}
-        vgg_rawnet=scipy.io.loadmat('./vgg_model/imagenet-vgg-verydeep-19.mat')
+        vgg_rawnet=scipy.io.loadmat('./VGG_Model/imagenet-vgg-verydeep-19.mat')
         vgg_layers=vgg_rawnet['layers'][0]
         net['input']=input-MEAN_VALUES
         net['conv1_1']=build_net('conv',net['input'],get_weight_bias(vgg_layers,0),name='vgg_conv1_1')
