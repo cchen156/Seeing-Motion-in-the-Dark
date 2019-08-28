@@ -18,7 +18,7 @@ Tested in Ubuntu 16.04 + Nvidia Tesla V100 32 GB with Cuda (>=9.0) and CuDNN (>=
 
 ### Testing and training the models
 
-To reproduce the results, you only need to download the [pre-processed data]() and put them in ```./DRV```. To try the [pre-trained model](https://drive.google.com/drive/folders/1OO97dDJp9GlqijGfcvKpas2PZB0q9o8n?usp=sharing), download the model in ```./checkpoint```.
+To reproduce the results, you only need to download the pre-processed data: [long](https://storage.googleapis.com/isl-datasets/DRV/long.zip), [short](https://storage.googleapis.com/isl-datasets/DRV/VBM4D_rawRGB.zip), and put them in ```./DRV```. To try the [pre-trained model](https://drive.google.com/drive/folders/1OO97dDJp9GlqijGfcvKpas2PZB0q9o8n?usp=sharing), download the model in ```./checkpoint```.
 
 To retrain a new model, run: 
 ```
@@ -36,12 +36,12 @@ To generate the videos, run
 python test_video.py
 ```
 
-By default, the code takes the data in the "./DRV/" and the output folder is ```./result```.
+By default, the code takes the data in the ```./DRV/``` and the output folder is ```./result```.
 
 
 ### Original sensor raw data
 
-The original raw data is much larger. If you need to process the data in a different way, you can download the [sensor raw data]() here.
+The original raw data is much larger. If you need to process the data in a different way, you can download the camera output raw data here: [Part1](https://storage.googleapis.com/isl-datasets/DRV/short1.zip), [Part2](https://storage.googleapis.com/isl-datasets/DRV/short2.zip), [Part3](https://storage.googleapis.com/isl-datasets/DRV/short3.zip), [Part4](https://storage.googleapis.com/isl-datasets/DRV/short4.zip), [Part5](https://storage.googleapis.com/isl-datasets/DRV/short5.zip) and [long](https://storage.googleapis.com/isl-datasets/DRV/long.zip).
 
 ## Citation
 If you use our code and dataset for research, please cite our paper:
