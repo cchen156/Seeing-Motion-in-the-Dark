@@ -12,7 +12,7 @@ This is a Tensorflow implementation of Seeing Motion in the Dark in ICCV 2019, b
 ## Code and Data
 
 ### Requirement
-Required python (version 2.7) libraries: Tensorflow (>=1.8.0) + Scipy + Numpy + Rawpy.
+Required python (version 2.7) libraries: Tensorflow (1.8.0) + Scipy + Numpy + Rawpy + OpenCV (4.1.0).
 
 Tested in Ubuntu 16.04 + Nvidia Tesla V100 32 GB with Cuda (>=9.0) and CuDNN (>=7.1). CPU mode should also work with minor changes but not tested.
 
