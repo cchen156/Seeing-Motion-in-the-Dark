@@ -9,7 +9,7 @@ This is a Tensorflow implementation of Seeing Motion in the Dark in ICCV 2019, b
 ## Demo Video
 
 
-## Code and Data (Work in progress)
+## Code and Data
 
 ### Requirement
 Required python (version 2.7) libraries: Tensorflow (>=1.8.0) + Scipy + Numpy + Rawpy.
