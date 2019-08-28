@@ -58,7 +58,7 @@ for test_id in test_ids:
     video.release()
 
 # test dynamic videos
-for test_id in range(22):
+for test_id in range(23):
     fourcc = cv2.VideoWriter_fourcc(*'MJPG')
     video = cv2.VideoWriter('result/video/M%04d.avi'%test_id,fourcc, 20.0, (1374,918))
 
