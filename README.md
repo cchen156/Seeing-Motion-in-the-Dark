@@ -2,7 +2,6 @@
 
 This is a Tensorflow implementation of Seeing Motion in the Dark in ICCV 2019, by [Chen Chen](http://cchen156.web.engr.illinois.edu/), [Qifeng Chen](http://cqf.io/), [Minh N. Do](http://minhdo.ece.illinois.edu), and [Vladlen Koltun](http://vladlen.info/).  
 
-[Project Website](http://cchen156.web.engr.illinois.edu/SMID.html)<br/>
 [Paper](http://vladlen.info/papers/DRV.pdf)<br/>
 
 
