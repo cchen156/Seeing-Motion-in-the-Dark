@@ -66,7 +66,7 @@ Generally, you will need to pre-process your data in a similar way. That is blac
 
 4. What if my GPU memory is too small to train model?  
 
-We provided a `pretrain_on_small.py` for small memory GPUs. After the training on small resolution, you will need to finetune it CPU using the `train.py`. 
+We provided a `pretrain_on_small.py` for small memory GPUs. After the training on small resolution, you will need to finetune it CPU using the `train.py` (modify the epoch and learning rate to make it continue training). 
 
 
 ## Questions
