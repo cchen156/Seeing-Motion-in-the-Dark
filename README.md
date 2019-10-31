@@ -64,6 +64,10 @@ This is a research project and a prototype to prove a concept.
 
 Generally, you will need to pre-process your data in a similar way. That is black level subtraction, packing, applying target gain and run some pre-defined temporal filters. The test data should be pre-processed in the same way.
 
+4. What if my GPU memory is too small to train model?  
+
+We provided a `pretrain_on_small.py` for small memory GPUs. After the training on small resolution, you will need to finetune it CPU using the `train.py`. 
+
 
 ## Questions
 If you have addtional questions after reading the FAQ, please email to cchen156@illinois.edu.
